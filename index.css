@@ -232,6 +232,46 @@ section {
 	border-radius: 5px;
 }
 
+/* Skills section styling */
+
+.skills{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    /* border: red dotted thick; */
+}
+.skills .max-width{
+    display: flex;
+    /* border: purple thick dotted; */
+    flex-direction: column;
+    width: 100%;
+}
+.skills-content{
+    display: flex;
+    /* border: dotted thick orange; */
+    justify-content: center;
+    
+}
+.skills-container{
+    display: flex;
+    /* border: red dotted thick; */
+    width: max-content;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+.row img{
+    width: 5rem;
+    height: 5rem;
+    /* border: black thick dotted; */
+    margin: 1rem;
+
+}
+
 /* responsive media query start */
 
 @media (max-width: 869px) {
