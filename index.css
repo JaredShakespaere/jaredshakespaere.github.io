@@ -234,42 +234,94 @@ section {
 
 /* Skills section styling */
 
-.skills{
+.skills {
+	display: flex;
+	background-color: whitesmoke;
+	justify-content: center;
+	align-items: center;
+	/* border: red dotted thick; */
+}
+.skills .max-width {
+	display: flex;
+	/* border: purple thick dotted; */
+	flex-direction: column;
+	width: 100%;
+}
+.skills-content {
+	display: flex;
+	/* border: dotted thick orange; */
+	justify-content: center;
+}
+.skills-container {
+	display: flex;
+	/* border: red dotted thick; */
+	width: max-content;
+	flex-direction: column;
+}
+.row {
+	display: flex;
+	justify-content: center;
+}
+.row img {
+	width: 5rem;
+	height: 5rem;
+	/* border: black thick dotted; */
+	margin: 1rem;
+}
+
+/* Resume section start */
+
+.resume {
     display: flex;
-    background-color: whitesmoke;
+	/* border: red dotted thick; */
+    background-color: black;
+    justify-content: center;
+}
+#max-width-resume{
+    display: flex;
+    /* border: whitesmoke thick dotted; */
+    flex-direction: column;
+}
+.resume .title {
+	/* border: red dotted thick; */
+	color: whitesmoke;
+	text-decoration: whitesmoke underline;
+}
+.resume-content{
+    display: flex;
+    /* border: pink dotted thick; */
+}
+.resume-document {
+    display: flex;
     justify-content: center;
     align-items: center;
-    /* border: red dotted thick; */
+	/* border: orange dotted thick; */
 }
-.skills .max-width{
-    display: flex;
-    /* border: purple thick dotted; */
-    flex-direction: column;
-    width: 100%;
-}
-.skills-content{
-    display: flex;
-    /* border: dotted thick orange; */
-    justify-content: center;
-    
-}
-.skills-container{
-    display: flex;
-    /* border: red dotted thick; */
-    width: max-content;
-    flex-direction: column;
-}
-.row{
-    display: flex;
-    justify-content: center;
-
-}
-.row img{
-    width: 5rem;
-    height: 5rem;
-    /* border: black thick dotted; */
+.resume-container{
     margin: 1rem;
+}
+.resume-container a{
+    display: flex;
+    /* border: thick dotted lime; */
+    flex-direction: column;
 
+}
+
+.resume-icon{
+    /* border: magenta thick dotted; */
+    width: 10rem;
+    height: 10rem;   
+}
+#resume-icon-download{
+  padding: 19px;
+    border-radius: 30px;
+}
+.resume-document .text{
+    /* border: hotpink dotted thick; */
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Ubuntu';
+    font-size: larger;
 }
 
 /* responsive media query start */
