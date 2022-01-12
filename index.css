@@ -17,18 +17,23 @@ body {
 } */
 /* navbar styling */
 .navBar {
+    display: flex;
 	position: fixed;
 	width: 100%;
 	padding: 30px 0;
 	transition: ease 0.3s;
 	font-family: 'Ubuntu', sans-serif;
 	background-color: black;
+    /* border: hotpink dotted thick; */
 }
 
 .navBar .max-width {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+    /* border: thick dotted red; */
+    width: 100%;
+    padding: 10px;
 }
 .navBar.sticky {
 	padding: 30px 0;
@@ -39,13 +44,14 @@ body {
 	transition: ease 0.3s;
 }
 .navBar.sticky .menu li a:hover {
-	color: #fff;
+	color: black;
 }
 
 .navBar .logo a {
 	color: #fff;
 	font-size: 35px;
 	font-weight: 600;
+    /* border: sandybrown thick dotted; */
 }
 .navBar .logo a span {
 	color: gold;
@@ -324,6 +330,51 @@ section {
     font-size: larger;
 }
 
+/* Contact section styling */
+
+.contact{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    /* border: lime dotted thick; */
+}
+
+#max-width-contact{
+    display: flex;
+    /* border: black thick dotted; */
+    flex-direction: column;
+    align-items: center;
+}
+.contact .title {
+	/* border: red dotted thick; */
+	color: black;
+	text-decoration: black underline;
+}
+.contact-container{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    /* border: red dotted thick; */
+    width: 100%;
+}
+.contact-icon{
+    /* border: magenta thick dotted; */
+    width: 10rem;
+    height: 10rem;   
+}
+.contact-container .text{
+    /* border: hotpink dotted thick; */
+    text-align: center;
+    color: black;
+    font-family: 'Ubuntu';
+    font-size: larger;
+}
+.contact-icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: blue dotted thick; */
+}
 /* responsive media query start */
 
 @media (max-width: 869px) {
