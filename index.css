@@ -377,7 +377,7 @@ section {
 }
 /* responsive media query start */
 
-@media (max-width: 869px) {
+/* @media (max-width: 869px) {
 	.max-width {
 		padding: 0 50px;
 	}
@@ -409,4 +409,4 @@ section {
 	.home .home-content .text-3 {
 		font-size: 35px;
 	}
-}
+} */
