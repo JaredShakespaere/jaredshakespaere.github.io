@@ -376,6 +376,11 @@ section {
     /* border: blue dotted thick; */
 }
 /* responsive media query start */
+@media (max-width: 390px) {
+	.navBar{
+		position:fixed;
+	}
+}
 
 @media (max-width: 869px) {
 	.max-width {
