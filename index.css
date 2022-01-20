@@ -377,7 +377,14 @@ section {
 		margin: 3vw;
 		margin-bottom: 5vh;
 	}
-	#free-pic{
+	#free-pic {
 		display: none;
 	}
+	.contact-container {
+		flex-direction: column;
+	}
+	.contact-icon-container{
+		margin-bottom: 5vh;
+	}
+	
 }
