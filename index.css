@@ -376,14 +376,15 @@ section {
     /* border: blue dotted thick; */
 }
 /* responsive media query start */
-@media (max-width: 390px) {
+
+
+@media (max-width: 869px) {
 	.navBar{
 		display: none;
 	}
-
-}
-
-@media (max-width: 869px) {
+	.about{
+		width: 100%;
+	}
 	.max-width {
 		padding: 0 50px;
 	}
