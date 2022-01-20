@@ -378,8 +378,9 @@ section {
 /* responsive media query start */
 @media (max-width: 390px) {
 	.navBar{
-		position:fixed;
+		display: none;
 	}
+
 }
 
 @media (max-width: 869px) {
