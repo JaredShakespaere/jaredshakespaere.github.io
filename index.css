@@ -377,4 +377,7 @@ section {
 		margin: 3vw;
 		margin-bottom: 5vh;
 	}
+	#free-pic{
+		display: none;
+	}
 }
